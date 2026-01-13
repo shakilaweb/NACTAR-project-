@@ -1,11 +1,14 @@
 *{
     padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 
 }
 body {
       font-family: "Open Sans", sans-serif;
 }
 
+/* nav menu design */
 .navlogu img {
     width: 50px;
     height: 50px;
@@ -27,4 +30,71 @@ body {
 .shdow {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
    
+}     
+/* nab design end  */
+
+
+/* {baner design } */
+
+.img-hgh {
+    height: 550px;
+}
+
+ /* banner text style */
+.text {
+   top:0px;
+   font-size: 25px;
+   baseline-shift: red;
+}   /*end*/
+
+
+
+/* food sectio design  */
+
+.food {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.heading {
+    width: 30%;
+   
+    margin: auto;
+}
+
+.heading p {
+    margin-bottom: 30px;
+}
+
+
+
+.named {
+    height: 190px;
+  
+}
+.card {
+   padding: 5px 5px;
+   border-radius: 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-right: 20px;
+}
+
+
+
+
+/* contuct page , section style  */
+
+.contact-heading {
+    padding: 30px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.image-contact img {
+    border-radius: 20px;
+}
+
+.map-image img {
+    width: 100%;
 }
