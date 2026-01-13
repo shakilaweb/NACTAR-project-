@@ -1,3 +1,3 @@
-  function fun() {
-    alert("the clicked ")
-  }
+function Clicked() {
+  alert("sent a message")
+}
