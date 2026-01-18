@@ -15,10 +15,16 @@ body {
     border-radius: 20px;
 
 }
+.status {
+    display: flex;
+      position: sticky;
+     top:0;
+     z-index: 0;  
+}
 
 .nabli li a {
     color: white;
-  
+   
 
 }
 
@@ -97,4 +103,20 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 
 .map-image img {
     width: 100%;
+}
+
+
+
+/* about page section card member design  */
+
+.staf-heading {
+    margin: auto;
+    width:20%;
+
+    margin-bottom: 50px;
+    text-align: center;
+}
+.img-map {
+    text-align: start;
+    justify-content: start;
 }
