@@ -120,3 +120,148 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
     text-align: start;
     justify-content: start;
 }
+
+/* Gallay section  */
+/* ================================ */
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 30px ;
+}
+
+
+.galary-title {
+    width: 20%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+.gallary-img img {
+    height: 300px;
+    transition: all .4 ease-in;
+
+}
+
+
+.gallary-img:hover {
+    box-shadow: rgba(1, 1, 1, 0.28) 0px 3px 80px;
+     transition: all .09 ease-in;
+}
+
+
+.gallary-img:hover.gallary-img img {
+    filter: sepia(100%);
+   
+
+}
+
+
+
+/* ====  Drream section / about section e   =====*/
+
+.dream-section {
+    margin-top: 30px;
+}
+
+.container {
+  
+    width: 1540px;
+}
+
+
+.card-title {
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.main {
+    display: flex;
+   
+}
+
+.dream-title {
+    padding: 20px;
+    width: 90%;
+    font-size: 20px;
+}
+.dream-title .p1 {
+    color:red;
+}
+.dream-title h1 {
+    margin-bottom: 150px;
+    font-weight: bolder;
+   font-size: 40px;
+}
+
+.dream-img img:hover {
+      box-shadow: rgba(1, 1, 1, 0.28) 0px 3px 80px;
+     transition: all .09 ease-in;
+     border-radius: 10px;
+}
+
+
+.ranking-1 {
+    display: flex ;
+    width: 90%;
+        gap:50px;
+   
+    margin-top: 20px;
+    text-align: start;
+        margin-bottom: 30px;    
+}
+.ranking-1 .one {
+ 
+   margin-right: 30px;
+}
+.ranking-2 {
+    display: flex ;
+    width: 90%;
+        gap:50px;
+
+    margin-top: 20px;
+    text-align: start;
+        margin-bottom: 30px;    
+}
+.ranking-2 .two {
+       margin-right: 30px;
+}
+
+
+
+
+/*========== FAQ section working ========= */
+
+
+
+/*  drop down menu section styles */
+
+.title h1 {
+    width: 40%;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.dropdown {
+    margin-bottom: 30px;
+    
+}
+.dropdown a {
+    padding: 2%;
+}
+
+
+
+.card-send i     {
+  
+    margin: auto;
+   
+    font-size: 40px;
+}
+
+.sectory {
+    padding:10px 25px 10px 30px ;
+   
+}
