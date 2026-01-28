@@ -1,2 +1,2 @@
-click[https://naimslog.netlify.app/]
+click..... ::  [https://naimslog.netlify.app/]
 
